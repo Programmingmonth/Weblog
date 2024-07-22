@@ -1,4 +1,4 @@
-# Blog
+# 📖 Blog
 ![Bootstrap Status](https://img.shields.io/badge/Bootstrap-Updating_the_project-purple?logo=bootstrap&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
