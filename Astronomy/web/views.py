@@ -10,3 +10,6 @@ def next_page(request):
 
 def next_page_2(request):
     return render(request, 'next_page_2.html')
+
+def imagea_page(request):
+    return render(request, 'Imagea.html')

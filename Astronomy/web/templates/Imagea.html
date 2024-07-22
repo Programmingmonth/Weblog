@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagea Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .Andromeda {
+            border-radius: 33px;
+            overflow: hidden;
+            height: 400px;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    {% load static %}
+    <div class="container mt-5">
+        <h2>This is the Imagea Page</h2>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <img class="Andromeda" src="{% static 'image/Andromeda.jpg' %}" alt="Andromeda Picture">
+            </div>
+            <div class="col-md-6 d-flex align-items-start mt-3">
+                <p class="text-left">This is a picture of the Andromeda galaxy, one of the closest galaxies to the Milky Way and the largest galaxy in the Local Group of galaxies. It is approximately 2.537 million light-years away from Earth.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
