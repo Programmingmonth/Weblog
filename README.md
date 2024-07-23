@@ -14,6 +14,13 @@ Because I was interested in astronomy, I put a project about news, planets, and 
 # 🧑‍💻 What is project programming?
 This project is with Django, maybe it says html inside the label, but this project is with Django language.
 
+# 📦 How to installation file requirements.txt:
+First, go to the Astronomy directory and write this command:
+```
+$ python3 -m pip install -r requirements.txt
+```
+And then it will install the package for you. If there is a problem somewhere, be sure to let me know in the issues section so that I can solve the problem quickly.
+
 # 🪀 TODO:
 - [x] Web Models.
 - [x] Ready design and imgage.
