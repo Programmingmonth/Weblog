@@ -14,6 +14,6 @@ Because I was interested in astronomy, I put a project about news, planets, and 
 # 🧑‍💻 What is project programming?
 This project is with Django, maybe it says html inside the label, but this project is with Django language.
 
-# TODO:
+# 🪀 TODO:
 - [x] Web Models.
 - [x] Ready design and imgage.
