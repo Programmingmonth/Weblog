@@ -7,7 +7,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        .Andromeda {
+        .Andromeda, .Lmc, .smc, .Ic10 {
             border-radius: 33px;
             overflow: hidden;
             height: 400px;
@@ -25,7 +25,37 @@
                 <img class="Andromeda" src="{% static 'image/Andromeda.jpg' %}" alt="Andromeda Picture">
             </div>
             <div class="col-md-6 d-flex align-items-start mt-3">
-                <p class="text-left">This is a picture of the Andromeda galaxy, one of the closest galaxies to the Milky Way and the largest galaxy in the Local Group of galaxies. It is approximately 2.537 million light-years away from Earth.</p>
+                <p>This is a picture of the Andromeda galaxy, one of the closest galaxies to the Milky Way and the largest galaxy in the Local Group of galaxies. It is approximately 2.537 million light-years away from Earth.</p>
+            </div>
+        </div>
+        <br>
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <img class="Lmc" src="{% static 'image/Large-Magellanic-Cloud.jpg' %}" alt="Large Magellanic Cloud Picture">
+            </div>
+            <div class="col-md-6 d-flex align-items-start mt-3">
+                <p>The Large Magellanic Cloud (LMC) is an irregular galaxy and one of the closest galaxies to the Milky Way, which is about 163,000 light-years away from Earth. This galaxy has about 10 billion stars and is one of the active regions of star formation, like the Tarantula Nebula. The Large Magellanic Cloud interacts with the Milky Way and due to its proximity and special characteristics, it is considered an important subject for study in astronomy.</p>
+            </div>
+        </div>
+        <br>
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <img class="smc" src="{% static 'image/small-magellanic-cloud.jpg' %}" alt="Smc Picture">
+            </div>
+            <div class="col-md-6 d-flex align-items-start mt-3">
+                <p>The Small Magellanic Cloud (SMC) is a dwarf irregular galaxy and one of the closest galaxies to the Milky Way, about 200,000 light-years away from Earth. This galaxy has about 7 billion stars and has active star formation regions. The Small Magellanic Cloud interacts with the Milky Way and the Large Magellanic Cloud, and due to its proximity and special characteristics, it is very important in astronomical studies.</p>
+            </div>
+        </div>
+        <br>
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <img class="Ic10" src="{% static 'image/IC10.jpg' %}" alt="Ic10 Picture">
+                <br>
+                <br>
+                <br>
+            </div>
+            <div class="col-md-6 d-flex align-items-start mt-3">
+                <p>The IC 10 galaxy is an irregular dwarf galaxy located in the constellation Aureus. This galaxy is about 2.2 million light-years away from Earth and is a member of the Local Group of galaxies. IC 10 is known for having many young, massive stars and high star formation activity. This galaxy is richer in hydrogen gas than many other dwarf galaxies, which leads to the formation of new stars.</p>
             </div>
         </div>
     </div>
