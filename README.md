@@ -24,4 +24,4 @@ And then it will install the package for you. If there is a problem somewhere, b
 
 # 🪀 TODO:
 - [x] Web Models.
-- [x] Ready design and imgage.
+- [x] Ready design and image.
