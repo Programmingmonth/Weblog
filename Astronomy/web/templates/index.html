@@ -11,7 +11,25 @@
             margin: 0;
             font-family: Arial, sans-serif;
             background-color: #ffffff;
+            height: 100vh;
+            background: rgb(255,208,208);
+            background: radial-gradient(circle, rgba(255,208,208,1) 23%, rgba(75,184,255,1) 100%);
+            background-size: 200% 200%;
+            animation: gradientAnimation 10s ease infinite;
         }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
         .navbar-brand .logo {
             height: 50px;
         }
@@ -46,6 +64,10 @@
         .btn-wave:hover::after {
             transform: translate(-50%, -50%) scale(1);
             background-color: rgba(255, 255, 0, 0.4);
+        }
+
+        #Descr {
+            text-align: center;
         }
     </style>
 </head>
