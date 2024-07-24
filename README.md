@@ -20,7 +20,7 @@ First, go to the Astronomy directory and write this command:
 ```
 $ python3 -m pip install -r requirements.txt
 ```
-And then it will install the package for you. If there is a problem somewhere, be sure to let me know in the issues section so that I can solve the problem quickly.
+And then it will install the package for you. If there is a problem somewhere, be sure to let me know in the [https://github.com/Programmingmonth/Weblog/issues](https://github.com/Programmingmonth/Weblog/issues) section so that I can solve the problem quickly.
 
 # 🪀 TODO:
 - [x] Web Models.
