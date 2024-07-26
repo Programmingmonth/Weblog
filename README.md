@@ -20,7 +20,7 @@ First, go to the Astronomy directory and write this command:
 ```
 $ python3 -m pip install -r requirements.txt
 ```
-Command for virtualenv:
+Command for [virtualenv](https://virtualenv.pypa.io/en/latest/):
 ```
 $ pip install virtualenv
 ```
