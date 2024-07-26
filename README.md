@@ -15,10 +15,14 @@ Because I was interested in astronomy, I put a project about news, planets, and 
 🎯This project is with Django, maybe it says html inside the label, but this project is with Django language.🎯
 ⬆️⬆️⬆️⬆️`Important`⬆️⬆️⬆️⬆️
 
-# 📦 How to installation file requirements.txt:
+# 📦 How to installation file requirements.txt, virtualenv:
 First, go to the Astronomy directory and write this command:
 ```
 $ python3 -m pip install -r requirements.txt
+```
+Command for virtualenv:
+```
+$ pip install virtualenv
 ```
 And then it will install the package for you. If there is a problem somewhere, be sure to let me know in the [issues](https://github.com/Programmingmonth/Weblog/issues) section so that I can solve the problem quickly.
 
