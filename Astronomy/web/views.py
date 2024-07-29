@@ -28,3 +28,6 @@ def next_page_2(request):
 
 def imagea_page(request):
     return render(request, 'Imagea.html')
+
+def Description(request):
+    return render(request, "Description.html")

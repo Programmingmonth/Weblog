@@ -8,4 +8,5 @@ urlpatterns = [
     path('next2/', views.next_page_2, name='next_page_2'),
     path('imagea/', views.imagea_page, name='imagea_page'),
     path('api/post/', simple_post_view, name='simple_post_view'),
+    path('Description/', views.Description, name='Description')
 ]

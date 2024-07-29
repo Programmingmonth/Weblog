@@ -33,15 +33,18 @@
         .navbar-brand .logo {
             height: 50px;
         }
+
         .github-icon {
             height: 60px;
         }
+
         .btn-wave {
             position: relative;
             overflow: hidden;
             z-index: 1;
             transition: color 0.5s, background-color 0.5s, border-color 0.5s;
         }
+        
         .btn-wave::after {
             content: '';
             position: absolute;
@@ -56,14 +59,35 @@
             transition: transform 0.5s, background-color 0.5s;
             z-index: -1;
         }
+        
+        
         .btn-wave:hover {
             color: #ff19c9;
             background-color: #ff0;
             border-color: #ff0;
         }
+        
         .btn-wave:hover::after {
             transform: translate(-50%, -50%) scale(1);
             background-color: rgba(255, 255, 0, 0.4);
+        }
+        
+        #Description {
+            text-align: center;
+        }
+
+        .Arrows {
+            text-align: center;
+            height: 100px;
+            width: 100px;
+        }
+
+        .center-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Adjust this as necessary */
+            flex-direction: column;
         }
     </style>
 </head>
@@ -72,7 +96,7 @@
     <!-- Bootstrap Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">
-            <img class="logo" src="{% static 'image/x.png' %}" alt="Logo">
+            <img class="logo" src="{% static 'image/x.png' %}" alt="Logo Pictures">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -93,7 +117,7 @@
                 </li>
             </ul>
             <a class="nav-link ml-auto" href="https://github.com/Programmingmonth">
-                <img src="{% static 'image/github.png' %}" alt="GitHub" class="github-icon">
+                <img src="{% static 'image/github.png' %}" alt="GitHub Pictures" class="github-icon">
             </a>
         </div>
     </nav>
@@ -102,6 +126,12 @@
         <h2>Welcome to Astronomy</h2>
         <p>You can watch the stars from here.</p>
         <a href="{% url 'next_page' %}" class="btn btn-primary btn-wave">Click Here</a>
+    </div>
+
+    <div class="center-content">
+        <h1 id="Description">Description</h1>
+        <img class="Arrows" src="{% static 'image/Arrows.png' %}" alt="Arrows Pictures">
+        <a href="{% url 'Description' %}" class="btn btn-primary btn-wave">Click Here</a>
     </div>
 
     <!-- Bootstrap JS, Popper.js, and jQuery -->
