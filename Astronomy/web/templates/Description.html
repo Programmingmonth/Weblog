@@ -3,9 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Description</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: rgb(76,101,255);
+            background: radial-gradient(circle, rgba(76,101,255,1) 33%, rgba(255,87,229,1) 100%);
+            background-size: 200% 200%;
+            animation: gradientAnimation 10s ease infinite;
+            margin: 0;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .navbar-brand .logo {
+            height: 50px;
+        }
+
+        .github-icon {
+            height: 60px;
+        }
+
+        .WelPull {
+            font-size: medium;
+        }
+
+        #Wel {
+            text-align: center;
+        }
+
+        #linkpull {
+            color: #ffd500;
+            font-size: large;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome</h1>
+    {% load static %}
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img class="logo" src="{% static 'image/x.png' %}" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+            <a class="nav-link ml-auto" href="https://github.com/Programmingmonth">
+                <img src="{% static 'image/github.png' %}" alt="GitHub" class="github-icon">
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="WelPull container mt-5">
+        <h1 id="Wel">Welcome</h1>
+        <br>
+        <p>
+            Hi, this project is for astronomy. And you can videos and photos of galaxies, planets, and many other things.
+            And if you look at the films of galaxies and planets, you can tell me to design the part of the film in this pull request. And you can talk to me through this link.
+            <a id="linkpull" href="https://github.com/Programmingmonth/Weblog/pulls">Pull Requests</a>
+            
+        </p>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

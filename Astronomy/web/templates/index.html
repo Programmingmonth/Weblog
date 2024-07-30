@@ -60,7 +60,6 @@
             z-index: -1;
         }
         
-        
         .btn-wave:hover {
             color: #ff19c9;
             background-color: #ff0;
@@ -86,8 +85,20 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh; /* Adjust this as necessary */
+            height: 100vh;
             flex-direction: column;
+            margin-top: -150px;
+        }
+
+        .btn-custom {
+            background-color: #00ccff;
+            color: white;
+            border-color: #00ccff;
+        }
+
+        .btn-custom:hover {
+            background-color: #e600ff;
+            border-color: #e600ff;
         }
     </style>
 </head>
@@ -131,7 +142,7 @@
     <div class="center-content">
         <h1 id="Description">Description</h1>
         <img class="Arrows" src="{% static 'image/Arrows.png' %}" alt="Arrows Pictures">
-        <a href="{% url 'Description' %}" class="btn btn-primary btn-wave">Click Here</a>
+        <a href="{% url 'Description' %}" class="btn btn-custom">Click Here</a>
     </div>
 
     <!-- Bootstrap JS, Popper.js, and jQuery -->
