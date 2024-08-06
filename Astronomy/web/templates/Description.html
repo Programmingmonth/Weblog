@@ -48,6 +48,49 @@
             color: #ffd500;
             font-size: large;
         }
+
+        #Astronomy {
+            font-size: large;
+        }
+
+        #Programmingmonth {
+            color: tomato;
+        }
+
+        .header-content {
+            position: fixed;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+        }
+
+        .header-content h2 {
+            display: inline-block;
+            font-size: 1.5rem;
+            color: bisque;
+            vertical-align: middle;
+        }
+
+        .header-content h6 {
+            display: inline-block;
+            font-size: 1rem;
+            color: bisque;
+            vertical-align: middle;
+        }
+
+        .header-content img {
+            display: inline-block;
+            height: 1em;
+            vertical-align: middle;
+            position: relative;
+            top: -0.6em; /* Set this value to change the position of the image */
+        }
+
+        .Paragraph {
+            font-size: larger;
+            color: #ffea00c1;
+        }
     </style>
 </head>
 <body>
@@ -64,7 +107,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="http://localhost:8089/">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">About</a>
@@ -90,8 +133,18 @@
             Hi, this project is for astronomy. And you can videos and photos of galaxies, planets, and many other things.
             And if you look at the films of galaxies and planets, you can tell me to design the part of the film in this pull request. And you can talk to me through this link.
             <a id="linkpull" href="https://github.com/Programmingmonth/Weblog/pulls">Pull Requests</a>
-            
         </p>
+    </div>
+    <br>
+
+    <!-- Header with Text and Logo -->
+    <div class="header-content">
+        <div>
+            <p class="Paragraph">This site was created by <h8 id="Programmingmonth">Programming month</h8> group and from the company</p>
+            <h2 id="Astronomy">Astronomy</h2>
+            <h6 id="RLogo">®</h6>
+        </div>
+        
     </div>
 
     <!-- Bootstrap JS, Popper.js, and jQuery -->
