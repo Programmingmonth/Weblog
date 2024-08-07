@@ -77,15 +77,15 @@
 
         .Arrows {
             text-align: center;
-            height: 100px;
-            width: 100px;
+            height: 50px; /* Adjusted size */
+            width: 50px;  /* Adjusted size */
         }
 
         .center-content {
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            height: 80vh; /* Adjusted height */
             flex-direction: column;
             margin-top: -150px;
         }
@@ -99,6 +99,19 @@
         .btn-custom:hover {
             background-color: #e600ff;
             border-color: #e600ff;
+        }
+
+        #Planets {
+            margin-left: 209px;
+        }
+
+        #br {
+            font-size: larger;
+        }
+
+        .Definitions p {
+            max-width: 999px; /* Adjusted width */
+            margin: 0 auto;   /* Centered content */
         }
     </style>
 </head>
@@ -141,8 +154,33 @@
 
     <div class="center-content">
         <h1 id="Description">Description</h1>
-        <img class="Arrows" src="{% static 'image/Arrows.png' %}" alt="Arrows Pictures">
         <a href="{% url 'Description' %}" class="btn btn-custom">Click Here</a>
+        <img class="Arrows" src="{% static 'image/Arrows.png' %}" alt="Arrows Pictures">
+    </div>
+
+    <div class="Definitions" id="br">
+        <h2 id="Planets">About The Planets: </h2>
+        <p>Planets are celestial bodies that revolve around stars. In the solar system, the planets revolve around the sun. In general, for an object to be considered a planet, it must meet the following conditions:
+            <br>Revolve around a star: In the solar system, the planets revolve around the sun.
+            <br>Have enough mass: The planet must have enough mass for its gravity to give it a spherical or near-spherical shape.
+            <br>Cleared its orbit: The planet must have cleared a region of its orbit from other celestial bodies.
+            <br><br>solar system: The solar system consists of a star (the sun) and various objects such as planets, moons, asteroids and comets. In our solar system, there are eight planets, which are divided into two groups:
+            <br>inner planets (rock):
+            <br>Mercury: the closest planet to the sun, the smallest and the fastest planet.
+            <br>Venus: the second planet closest to the sun, with a thick and very hot atmosphere.
+            <br>Earth: The planet we live in and the only known planet with life.
+            <br>Mars: the fourth planet, with a dry and desert surface with large volcanoes and deep valleys.
+            <br><br>Outer planets (gas):
+            <br>Jupiter: The largest planet in the solar system, with a complex system of rings and moons.
+            <br>Saturn: The second largest planet, known for its beautiful and wide rings.
+            <br>Uranus: has a unique rotation axis that is almost parallel to its orbital plane.
+            <br>Neptune: the farthest planet from the sun, with very strong winds and huge storms.
+            <br><br>Definition of planets outside the solar system (exoplanets): Planets that orbit other stars outside the solar system are known as exoplanets or exoplanets. So far, thousands of exoplanets have been discovered, some of which have the same characteristics as the planets of the solar system.
+            <br><br>The difference between planets and other celestial bodies:
+            <br>Asteroids: Smaller objects found mainly between the orbits of Mars and Jupiter.
+            <br>Comets: are icy bodies that have long, bright trails as they approach the Sun.
+            <br>Moons: are objects that revolve around planets.
+        </p>
     </div>
 
     <!-- Bootstrap JS, Popper.js, and jQuery -->
