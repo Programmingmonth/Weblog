@@ -26,7 +26,8 @@ $ pip install virtualenv
 ```
 And then it will install the package for you. If there is a problem somewhere, be sure to let me know in the [issues](https://github.com/Programmingmonth/Weblog/issues) section so that I can solve the problem quickly.
 
-# 🍪 Description
+# 🍪 Description:
+The "Settings.json" file is for guidance.
 
 # 🪀 TODO:
 - [x] Web Models"It is being designed.👍".
