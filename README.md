@@ -1,11 +1,32 @@
 # 📖 Blog
-![Bootstrap Status](https://img.shields.io/badge/Bootstrap-Updating_the_project-purple?logo=bootstrap&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
-![JSON](https://img.shields.io/badge/JSON-FFD700?logo=json&logoColor=black)
+<img
+    alt="Bootstrap Status"
+    src="https://img.shields.io/badge/Bootstrap-Updating_the_project-purple?style=for-the-badge&logo=bootstrap&logoColor=white"
+/>
+<img
+    alt="Django"
+    src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"
+/>
+<img
+    alt="Python"
+    src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"
+/>
+<img
+    alt="JavaScript"
+    src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
+/>
+<img
+    alt="HTML"
+    src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
+/>
+<img
+    alt="CSS"
+    src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
+/>
+<img
+    alt="JSON"
+    src="https://img.shields.io/badge/JSON-FFD700?style=for-the-badge&logo=json&logoColor=black"
+/>
 <br>
 Project For Weblog Astronomy.
 
